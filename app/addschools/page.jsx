@@ -81,12 +81,12 @@ const SchoolForm = () => {
             htmlFor="name"
             className="block mb-2 text-sm font-medium text-gray-900"
           >
-            Your name
+            Name
           </label>
           <input
             type="text"
             id="name"
-            placeholder="enter your name"
+            placeholder="Name"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             {...register("name", {
               required: "Name is required",
@@ -111,7 +111,7 @@ const SchoolForm = () => {
           <input
             type="text"
             id="address"
-            placeholder="enter adsress"
+            placeholder="Address"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             {...register("address", {
               required: "Address is required",
@@ -133,7 +133,7 @@ const SchoolForm = () => {
           <input
             type="text"
             id="city"
-            placeholder="enter city"
+            placeholder="City"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             {...register("city", {
               required: "City is required",
@@ -156,7 +156,7 @@ const SchoolForm = () => {
           <input
             type="text"
             id="state"
-            placeholder="enter state"
+            placeholder="State"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             {...register("state", {
               required: "State is required",
@@ -181,7 +181,7 @@ const SchoolForm = () => {
           <input
             type="number"
             id="contact"
-            placeholder="enter contact"
+            placeholder="Contact"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             {...register("contact", {
               required: "Contact is required",
@@ -231,7 +231,7 @@ const SchoolForm = () => {
           <input
             type="text"
             id="email"
-            placeholder="hey@chrisoncode.io"
+            placeholder="hey@example.com"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
             {...register("email", {
               required: "Email is required",
